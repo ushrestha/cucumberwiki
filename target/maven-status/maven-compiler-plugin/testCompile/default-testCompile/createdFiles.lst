@@ -1,0 +1,5 @@
+net\thucydides\showcase\cucumber\pages\WikiPage.class
+net\thucydides\showcase\cucumber\steps\WikiMap.class
+net\thucydides\showcase\cucumber\SearchWiki.class
+net\thucydides\showcase\cucumber\steps\serenity\WikiSteps.class
+objectrepo\RepositoryParser.class

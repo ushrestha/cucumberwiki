@@ -1,0 +1,31 @@
+<acceptance-test-run title="Search item in wiki page" name="Search item in wiki page" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="11011" timestamp="2017-10-09T13:13:42.232-04:00" session-id="9aaa04e050b8f3d60b0942eb430597e6">
+  <user-story id="wiki-search" name="Wiki Search" path="wiki.feature"/>
+  <tags>
+    <tag name="Wiki Search" type="feature"/>
+    <tag name="tag111" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="7277">
+    <screenshots>
+      <screenshot image="44060acc4c1c5d229c0c4b6a48ddcac6.png"/>
+    </screenshots>
+    <description>Given i have naviaged to wikiPage</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="410">
+    <screenshots>
+      <screenshot image="f3f2f87adb8bda04cf25d5487278ddc4.png"/>
+    </screenshots>
+    <description>When i enter &apos;apple&apos; in search box</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2799">
+    <screenshots>
+      <screenshot image="7881f6dffd36d0154407ca26d42fcea5.png"/>
+    </screenshots>
+    <description>And i click on the search button</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="333">
+    <screenshots>
+      <screenshot image="7881f6dffd36d0154407ca26d42fcea5.png"/>
+    </screenshots>
+    <description>Then i should see the title with &apos;Apple&apos;</description>
+  </test-step>
+</acceptance-test-run>
